@@ -9,9 +9,9 @@ NOTA:en este archivo tambien se encuentra un json con el formato y el metodoto p
 
 NOTA2:Se debe enviar este json desde postman o algun tester 'HTTP' con la direccion del servidor donde se ejecuta el back y el metodo post.
 
-Nota3:El usuario por defecto se crea con un estado de false  por ende es necesario cambiar este usuario a true,para ello se debe hacer un update con el id del usuario anteriormente creado y pasarlo a state true,la sintaxis se encuentra en el archivo menciado anteriormente;solo es necesario colocar el id generado.
+NOTA3:El usuario por defecto se crea con un estado de false  por ende es necesario cambiar este usuario a true,para ello se debe hacer un update con el id del usuario anteriormente creado y pasarlo a state true,la sintaxis se encuentra en el archivo menciado anteriormente;solo es necesario colocar el id generado.
 
-NOta4:Se debe realizar estos pasos ya que el back php cuenta con una encriptacion de contraseñas por este motivo si no se realiza el registro atraves del back,cuando se realice el logueo la contraseña sera incorrecta.
+NOTA4:Se debe realizar estos pasos ya que el back php cuenta con una encriptacion de contraseñas por este motivo si no se realiza el registro atraves del back,cuando se realice el logueo la contraseña sera incorrecta.
 
 
 2.una vez hecho los pasos anteriores se puede correr el fornt y loguearse.
