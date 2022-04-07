@@ -1,0 +1,274 @@
+.container {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-image: linear-gradient(
+    230deg,
+    hsl(0deg 0% 100%) 0%,
+    hsl(212deg 60% 98%) 15%,
+    hsl(212deg 60% 96%) 32%,
+    hsl(212deg 60% 94%) 49%,
+    hsl(211deg 60% 92%) 63%,
+    hsl(211deg 60% 90%) 72%,
+    hsl(211deg 60% 87%) 78%,
+    hsl(211deg 60% 85%) 82%,
+    hsl(210deg 60% 83%) 85%,
+    hsl(210deg 60% 81%) 88%,
+    hsl(210deg 60% 79%) 90%,
+    hsl(209deg 61% 76%) 91%,
+    hsl(209deg 61% 74%) 93%,
+    hsl(208deg 61% 72%) 94%,
+    hsl(208deg 61% 69%) 95%,
+    hsl(207deg 61% 67%) 96%,
+    hsl(207deg 62% 64%) 97%,
+    hsl(206deg 62% 62%) 98%,
+    hsl(205deg 63% 59%) 98%,
+    hsl(204deg 63% 56%) 99%,
+    hsl(203deg 64% 52%) 99%,
+    rgb(129, 199, 236) 100%
+  );
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cont_login {
+  width: 60%;
+  height: 90%;
+  flex: 1;
+  position: absolute;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+.cont_login_iz {
+  background-image: url("https://cdn.pixabay.com/photo/2017/08/10/07/42/drawing-2619630_960_720.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 53%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  float: left;
+}
+
+.coon {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-image: linear-gradient(
+    230deg,
+    hsl(0deg 0% 100%) 0%,
+    hsl(212deg 60% 98%) 15%,
+    hsl(212deg 60% 96%) 32%,
+    hsl(212deg 60% 94%) 49%,
+    hsl(211deg 60% 92%) 63%,
+    hsl(211deg 60% 90%) 72%,
+    hsl(211deg 60% 87%) 78%,
+    hsl(211deg 60% 85%) 82%,
+    hsl(210deg 60% 83%) 85%,
+    hsl(210deg 60% 81%) 88%,
+    hsl(210deg 60% 79%) 90%,
+    hsl(209deg 61% 76%) 91%,
+    hsl(209deg 61% 74%) 93%,
+    hsl(208deg 61% 72%) 94%,
+    hsl(208deg 61% 69%) 95%,
+    hsl(207deg 61% 67%) 96%,
+    hsl(207deg 62% 64%) 97%,
+    hsl(206deg 62% 62%) 98%,
+    hsl(205deg 63% 59%) 98%,
+    hsl(204deg 63% 56%) 99%,
+    hsl(203deg 64% 52%) 99%,
+    hsl(201deg 77% 46%) 100%
+  );
+}
+
+.cont_login_back{
+  background-color: #00000063;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.cont_login_der {
+  background-color: rgb(255, 255, 255);
+  width: 47%;
+  height: 100%;
+  float: left;
+  justify-content: center;
+  align-items: center;
+}
+.tittlee {
+  width: 100%;
+  height: 200px;
+  margin-top: 60px;
+  text-align: center;
+}
+.label_title {
+  font-size: 50px;
+  font-family: "Tangerine", cursive;
+}
+.label_titler {
+  font-size: 18px;
+  color: rgba(146, 145, 145, 0.787);
+}
+.label_login {
+  color: rgba(146, 145, 145, 0.507);
+  margin-left: 20%;
+  font-size: 13px;
+}
+.inputsl {
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  height: 30px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid rgba(90, 90, 90, 0.246);
+  outline: none;
+  color: rgba(0, 0, 0, 0.568);
+}
+.inputsl:focus {
+  left: 0;
+  width: 60%;
+  border-bottom: 2px solid rgb(11, 56, 255);
+  transition: 0.9s;
+}
+.contebutton {
+  margin-top: 30px;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+.buton {
+  position: relative;
+  padding: 9px 55px;
+  background-color: rgb(88, 88, 88);
+  color: white;
+  border-radius: 24px;
+  cursor: pointer;
+}
+.labelor{
+  padding-top:10px;
+  color: rgba(146, 145, 145, 0.507);
+}
+.label_sign_up{
+  color: #0070f3;
+  cursor: pointer;
+}
+.label_sign_up:hover{
+  color:#00aef3;
+  border-bottom: 1px solid #00aef3;
+}
+.buton:hover{
+  background-color: rgb(134, 134, 134);
+  color: rgb(235, 232, 232);
+}
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 4rem 0;
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  max-width: 300px;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h2 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}

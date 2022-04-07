@@ -1,0 +1,20 @@
+.conten_table{
+    position: relative;
+    width: 80%;
+    margin-left:10%;
+    overflow: hidden;
+}
+.card{
+    overflow: hidden;
+    overflow-x: auto;
+}
+.butonr{
+    background-color:rgb(0, 182, 61);
+    padding: 9px 30px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.butonr:hover{
+    background-color:rgb(8, 243, 86);
+}
